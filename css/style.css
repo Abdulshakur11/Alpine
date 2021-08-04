@@ -184,7 +184,7 @@ body {
 }
 
 .alpine-input {
-  font-family: 'Pavanam', sans-serif;
+  font-family: 'Pavanam';
   font-style: normal;
   font-weight: normal;
   width: 291px;
@@ -200,7 +200,7 @@ body {
 }
 
 .alpine-button {
-  font-family: 'Pavanam', 'Arial', sans-serif;
+  font-family: 'Pavanam'
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
