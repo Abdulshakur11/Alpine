@@ -34,6 +34,15 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Pavanam';
+  src: url('Pavanam-Regular.woff2') format('woff2'),
+      url('Pavanam-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -175,26 +184,25 @@ body {
 }
 
 .alpine-input {
-  font-family: 'Pavanam';
+  font-family: 'Pavanam', sans-serif;
   font-style: normal;
   font-weight: normal;
   width: 291px;
   font-size: 14px;
   line-height: 18px;
   margin-top: 25px;
-  padding: 9px 131px 9px 35px;
+  padding: 9px 0px 9px 35px;
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.4);
   color: rgba(255, 255, 255, 0.4);
-  /* color: #fff; */
   border-radius: 50px;
   background-color: transparent;
 }
 
 .alpine-button {
-  font-family: 'Pavanam';
+  font-family: 'Pavanam', 'Arial', sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   margin-left: 20px;
